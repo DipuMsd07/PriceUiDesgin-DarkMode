@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #232427;
+  transition: .5s all linear;
 }
 
 .container {
@@ -167,7 +168,7 @@ body.light .toggle::before{
 }
 
 body.light{
-  background: #ebf5fc;
+  background: #c5cbcf;
 }
 
 body.light .container .card {
